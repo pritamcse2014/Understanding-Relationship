@@ -18,4 +18,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/post', [DemoController::class, 'DemoAction']);
+Route::get('/tag', [DemoController::class, 'DemoAction']);
