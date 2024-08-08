@@ -10,7 +10,6 @@ use Illuminate\Http\Request;
 class DemoController extends Controller
 {
     function DemoAction() {
-        // return Post::get();
-        return Post::with('user')->get();
+        return Post::with('tag')->get();
     }
 }
